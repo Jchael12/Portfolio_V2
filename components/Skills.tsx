@@ -1,12 +1,12 @@
-import HTMLIcon from "./icons/HTML";
-import CSSIcon from "./icons/CSS";
-import JavaScriptIcon from "./icons/Javascript";
-import ReactIcon from "./icons/React";
-import TailwindIcon from "./icons/Tailwind";
-import { NextIcon } from "./icons/Next";
-import GitIcon from "./icons/Git";
-import GithubIcon from "./icons/Github";
-import VercelIcon from "./icons/Vercel";
+import HTMLIcon from "@/components/icons/html";
+import CSSIcon from "@/components/icons/css";
+import JavaScriptIcon from "@/components/icons/javascript";
+import ReactIcon from "@/components/icons/react";
+import TailwindIcon from "@/components/icons/tailwind";
+import { NextIcon } from "@/components/icons/next";
+import GitIcon from "@/components/icons/git";
+import GithubIcon from "@/components/icons/github";
+import VercelIcon from "@/components/icons/vercel";
 
 export default function Skills() {
   return (
