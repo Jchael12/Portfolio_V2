@@ -7,22 +7,29 @@ import { NextIcon } from "@/components/icons/next";
 import GitIcon from "@/components/icons/git";
 import GithubIcon from "@/components/icons/github";
 import VercelIcon from "@/components/icons/vercel";
+import NodeIcon from "./icons/node";
+import BlurFade from "./magicui/blur-fade";
 
 export default function Skills() {
   return (
-    <section>
-      <h1 className="text-center font-bold text-2xl my-10">Skills</h1>
-      <div className="flex">
-        <HTMLIcon />
-        <CSSIcon />
-        <JavaScriptIcon />
-        <ReactIcon />
-        <TailwindIcon />
-        <NextIcon />
-        <GitIcon />
-        <GithubIcon />
-        <VercelIcon />
-      </div>
+    <section className="w-6/12 space-y-5">
+      <BlurFade delay={0.75}>
+        <h1 className="text-center font-bold text-4xl my-10 uppercase">
+          Skills
+        </h1>
+        <div className="flex items-center justify-center">
+          <HTMLIcon />
+          <CSSIcon />
+          <JavaScriptIcon />
+          <ReactIcon />
+          <TailwindIcon />
+          <NextIcon />
+          <GitIcon />
+          <GithubIcon />
+          <VercelIcon />
+          <NodeIcon />
+        </div>
+      </BlurFade>
     </section>
   );
 }
