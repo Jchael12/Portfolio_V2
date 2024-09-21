@@ -47,7 +47,6 @@ export default function Works() {
             </div>
           </MagicCard>
         </BlurFade>
-
         <BlurFade delay={1.0}>
           <MagicCard className="text-white text-center items-center cursor-pointer shadow-2xl whitespace-wrap text-4xl bg-zinc-950">
             <div className="flex flex-col gap-2 m-3">
