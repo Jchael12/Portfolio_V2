@@ -4,12 +4,12 @@ import SparklesText from "./ui/sparkles-text";
 export default function Contact() {
   return (
     <div className="w-6/12 flex flex-col items-center justify-center mb-10">
-      <p>(Need an elevated solution?)</p>
+      <p>( Need an elevated solution? )</p>
       <SparklesText
         text="
         Let's Make it Happen
         "
-        className="my-10 text-4xl uppercase"
+        className="my-10 text-4xl"
       />
       {/* <h1 className="font-bold text-4xl my-10 uppercase"> */}
       {/* </h1> */}
