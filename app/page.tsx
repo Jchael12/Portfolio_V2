@@ -1,4 +1,6 @@
 import About from "@/components/About";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Particles from "@/components/magicui/particles";
 import Skills from "@/components/Skills";
@@ -18,6 +20,8 @@ export default function Home() {
         <About />
         <Skills />
         <Works />
+        <Contact />
+        <Footer />
       </div>
     </>
   );
