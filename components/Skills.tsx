@@ -12,12 +12,12 @@ import BlurFade from "./magicui/blur-fade";
 
 export default function Skills() {
   return (
-    <section className="w-6/12 space-y-5">
+    <section className="lg:w-6/12 w-10/12 space-y-5">
       <BlurFade delay={0.75}>
         <h1 className="text-center font-bold text-4xl my-10 uppercase">
           Skills
         </h1>
-        <div className="flex items-center justify-center">
+        <div className="flex flex-wrap lg:flex-nowrap items-center justify-center">
           <HTMLIcon />
           <CSSIcon />
           <JavaScriptIcon />

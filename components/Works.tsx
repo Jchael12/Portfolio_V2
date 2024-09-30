@@ -8,7 +8,7 @@ import Babel from "@/public/banner3.png";
 
 export default function Works() {
   return (
-    <div className="w-6/12 flex flex-col items-center justify-center mb-10">
+    <div className="lg:w-6/12 sm:10/12 flex flex-col items-center justify-center mb-10">
       <BlurFade delay={1.0}>
         <h1 className="font-bold text-4xl my-10 uppercase">Experience</h1>
       </BlurFade>
@@ -19,7 +19,7 @@ export default function Works() {
               <Image
                 src={Babel}
                 alt="Babel Mobile Language Translator"
-                className="rounded-md h-64"
+                className="rounded-md lg:h-64"
               />
               <div>
                 <h1 className="text-2xl">Babel Mobile Language Translator</h1>
