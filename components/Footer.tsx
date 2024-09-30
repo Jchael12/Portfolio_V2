@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <div>
-      <p>Created using Next JS.</p>
+    <div className="mb-2">
+      <p>Created with ❤️ using Next.js</p>
     </div>
   );
 }
