@@ -42,7 +42,7 @@ export default function Works() {
           <MagicCard className="text-white text-center items-center cursor-pointer shadow-2xl whitespace-wrap text-4xl bg-zinc-950">
             <div className="flex flex-col gap-2 m-3">
               <Image
-                src={Pis}
+                src={Earist}
                 alt="Babel Mobile Language Translator"
                 className="rounded-md"
               />
@@ -69,7 +69,7 @@ export default function Works() {
           <MagicCard className="text-white text-center items-center cursor-pointer shadow-2xl whitespace-wrap text-4xl bg-zinc-950">
             <div className="flex flex-col gap-2 m-3">
               <Image
-                src={Earist}
+                src={Pis}
                 alt="Babel Mobile Language Translator"
                 className="rounded-md"
               />
